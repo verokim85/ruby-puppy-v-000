@@ -13,8 +13,8 @@ def self.clear_all
   end
 
 def self.all
-  @@all.each do |name|
-    puts Dog.name
+  @@all.each do |puppy|
+    puts puppy.name
   end
 end
 
