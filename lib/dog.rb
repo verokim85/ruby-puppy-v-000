@@ -17,6 +17,5 @@ def self.all
         puts new_hash[key]
   end
 end
-end
 
 end
