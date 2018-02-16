@@ -12,7 +12,7 @@ def self.clear_all
 
 def self.all
   @@all.each do |name|
-    print "#{name}"
+    puts "#{name}"
   end
 end
 
