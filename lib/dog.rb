@@ -14,6 +14,8 @@ def self.clear_all
 
 def self.all
   @@all.each do |key, value|
+    @@all.keys
+
     puts "#{names}"
   end
 end
