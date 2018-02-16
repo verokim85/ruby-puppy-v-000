@@ -13,7 +13,7 @@ def self.clear_all
 
 def self.all
   @@all.each do |names|
-    puts names.keys
+    puts "#{names}"
   end
 end
 
