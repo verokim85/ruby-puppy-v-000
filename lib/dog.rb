@@ -14,8 +14,9 @@ def self.clear_all
 
 def self.all
   new_hash = {}
-  new_hash.each do |key, value|
-    puts new_hash.keys
+  new_hash.each do |key|
+    puts new_hash.include?(key)
+      new_hash[key]
   end
 end
 
