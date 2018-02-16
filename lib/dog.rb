@@ -13,6 +13,7 @@ def self.clear_all
   end
 
 def self.all
+  new_hash = {}
   @@all.each do |key, value|
     puts @@all.keys
   end
