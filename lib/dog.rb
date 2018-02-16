@@ -16,7 +16,7 @@ def self.all
   @@all.each do |key, value|
     @@all.keys
 
-    puts "#{names}"
+    puts keys
   end
 end
 
