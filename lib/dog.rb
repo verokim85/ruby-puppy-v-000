@@ -18,7 +18,7 @@ def self.all
 end
 
 def name
-  name
+  @name
 end
 
 
