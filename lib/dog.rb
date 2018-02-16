@@ -12,7 +12,8 @@ def self.clear_all
 
 def self.all
   @@all.each do |name|
-    puts "#{name}.to_s"
+    x = name.to_s
+    puts "#{s}"
   end
 end
 
