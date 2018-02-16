@@ -14,7 +14,7 @@ def self.clear_all
 def self.all
   new_hash = {}
   new_hash.each do |key|
-    new_hash[key]
+    puts new_hash << key
   end
 end
 
