@@ -12,10 +12,8 @@ def self.clear_all
   end
 
 def self.all
-  new_hash = {}
-  new_hash.each do |key|
-  x  = new_hash << key
-  puts x
+  @@all.each do |name|
+    puts Dog.name
   end
 end
 
