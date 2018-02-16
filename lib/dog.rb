@@ -14,9 +14,8 @@ def self.clear_all
 
 def self.all
   @@all.each do |key, value|
-    @@all.keys
-
-    puts keys
+    x= @@all.keys
+    puts x
   end
 end
 
