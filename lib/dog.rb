@@ -11,7 +11,7 @@ def self.clear_all
   end
 
 def self.all
-  @name.each do |names|
+  @@all.each do |names|
     puts "#{names}"
   end
 end
